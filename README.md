@@ -4,7 +4,7 @@ Convite de aniversário digital para a **Helena**, que está fazendo **11 anos**
 
 Feito com **HTML, CSS e JavaScript puros**, sem frameworks e sem servidor, e hospedado no **GitHub Pages**.
 
-🔗 **Site:** `https://SEU-USUARIO.github.io/niver-helena/`
+🔗 **Site:** [Niver da Helena](https://pmagoga.github.io/niver-helena/)
 
 ---
 
@@ -90,4 +90,5 @@ Projeto desenvolvido com base nas aulas da **Semana Front-end DIO**, ministradas
 ## 📜 Licença
 
 Projeto pessoal, criado para uma festa de aniversário. Imagens e referências de Stranger Things pertencem aos seus respectivos detentores.
+
 # niver-helena
