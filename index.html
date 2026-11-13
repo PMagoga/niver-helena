@@ -52,15 +52,15 @@
                 <ul class="info-list">
                     <li>
                         <h3>Quando</h3>
-                        <p>05/12/2026<br />às 16h00</p>
+                        <p>05/12/2026<br />às 14h00</p>
                     </li>
                     <li>
                         <h3>Onde</h3>
-                        <p>Nome do local<br />Rua Exemplo, 123</p>
+                        <p>Espaço Festa<br />Rua Camarista João Hirt, 1312, Passa Três</p>
                     </li>
                     <li>
                         <h3>Traje</h3>
-                        <p>Vista-se como um herói de Hawkins</p>
+                        <p>Traga roupa de banho, pois no local há piscina</p>
                     </li>
                 </ul>
             </section>
@@ -81,12 +81,23 @@
                     </ul>
                 </div>
             </section>
+            <section class="localizacao">
+                <button id="button-maps" type="button" disabled="disabled">VEJA A LOCALIZAÇÃO NO MAPS</button>
+                <iframe
+                    title="Mapa do Local da Festa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14334.07680289892!2d-49.78310179999998!3d-26.08196515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dd9396ff4eaa33%3A0x5365ef5c34c425ab!2sEspa%C3%A7o%20Festa.!5e0!3m2!1spt-BR!2sbr!4v1794526977522!5m2!1spt-BR!2sbr"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                ></iframe>
+            </section>
 
             <section id="section-form" class="container">
                 <h2>Confirme sua presença</h2>
                 <p>
                     Quer fazer parte do grupo da Helena? Preencha abaixo e a confirmação será enviada direto pelo
-                    WhatsApp.
+                    WhatsApp. <strong>IMPORTANTE: AVISE SE SEU FILHO PODE ENTRAR NA PISCINA</strong>
                 </p>
 
                 <div class="form-content">
@@ -94,10 +105,10 @@
 
                     <div class="form-container">
                         <form id="rsvp-form" novalidate>
-                            <label for="txtName">Nome completo</label>
+                            <label for="txtName">Nome</label>
                             <input type="text" name="name" id="txtName" autocomplete="name" required />
 
-                            <label for="txtGuests">Quantas pessoas vão com você?</label>
+                            <label for="txtGuests">Quantas crianças vão?</label>
                             <input
                                 type="number"
                                 name="guests"
@@ -108,7 +119,7 @@
                                 inputmode="numeric"
                             />
 
-                            <label for="txtMessage">Recado para a Helena</label>
+                            <label for="txtMessage">Nos informe se seu filho pode entrar na piscina</label>
                             <textarea name="message" id="txtMessage" rows="5"></textarea>
 
                             <p id="form-error" class="form-error" role="alert" hidden></p>
